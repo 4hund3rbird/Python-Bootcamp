@@ -4,9 +4,6 @@ class sketch_book:
     def __init__(self) -> None:
         self.tim=turtle.Turtle()
         self.screen=turtle.Screen()
-        image="img.gif"
-        self.screen.addshape(image)
-        turtle.shape(image)
         color=self.screen.textinput("color","choose the color of pen ")
         size=self.screen.textinput("size","choose the size of pen (in range 1 to 10)")
         self.tim.color(color)
